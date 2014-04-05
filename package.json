@@ -1,0 +1,23 @@
+{
+  "name": "gas-density-calculator",
+  "version": "0.0.0",
+  "description": "Find the density of any gas at known temperature and pressure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keyvanfatehi/gas-density-calculator"
+  },
+  "keywords": [
+  ],
+  "author": "Keyvan Fatehi",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/keyvanfatehi/gas-density-calculator/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2"
+  }
+}
