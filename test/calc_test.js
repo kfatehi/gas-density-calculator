@@ -10,7 +10,8 @@ describe("calc#getDensity()", function() {
       pressureKiloPascal: 101.325
     }
     it("should be 0.1786 kg/m3", function() {
-      assert.equal(calc.getDensity(options), 0.1786);
+      var res = calc.getDensity(options);
+      assert.equal(res.toFixed(4), 0.1786);
     });
   });
 });
