@@ -1,8 +1,8 @@
 {
   "name": "gas-density-calculator",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Find the density of any gas at known temperature and pressure.",
-  "main": "index.js",
+  "main": "src/calc.js",
   "scripts": {
     "test": "mocha test/**/*.js"
   },
